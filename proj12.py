@@ -24,7 +24,7 @@ bug.goto(-115,0)
 # speed changers
 bug.dx = 0
 bug.dy = 3
-
+# Pipes
 p1t = t.Turtle()
 p1t.speed(0)
 p1t.shape("pu.gif")
@@ -42,10 +42,10 @@ p1b.shapesize(30,3,0)
 p1b.penup()
 p1b.goto(0,-360)
 p1b.dx = 5
-
+# score variables
 score = 0
 scaler = 1
-
+# score display
 text = t.Turtle()
 text.ht()
 text.speed(0)
